@@ -1,0 +1,75 @@
+:root {
+    --black: 
+  rgba(0, 0, 0, 1);
+    --tall-poppy: 
+  rgba(181, 40, 40, 1);
+    --salmon-pearl: 
+  rgba(242, 76, 76, 1);
+    --ronchi: 
+  rgba(242, 201, 76, 1);
+    --white: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-xs: 20px;
+    --font-size-s: 24px;
+    --font-size-m: 25px;
+    --font-size-l: 28px;
+    --font-size-xl: 29px;
+    --font-size-xxl: 60px;
+    --font-size-xxxl: 101px;
+  
+    --font-family-quattrocento: "Quattrocento";
+    --font-family-ruda: "Ruda";
+  }
+  
+  /* Classes */
+  
+  .ruda-normal-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-ruda);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .quattrocento-normal-white-60px {
+    color: var(--white);
+    font-family: var(--font-family-quattrocento);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .ruda-bold-white-29px {
+    color: var(--white);
+    font-family: var(--font-family-ruda);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .ruda-normal-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-ruda);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .ruda-normal-ronchi-28px {
+    color: var(--ronchi);
+    font-family: var(--font-family-ruda);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .ruda-normal-white-25px {
+    color: var(--white);
+    font-family: var(--font-family-ruda);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .quattrocento-bold-white-101px {
+    color: var(--white);
+    font-family: var(--font-family-quattrocento);
+    font-size: var(--font-size-xxxl);
+    font-weight: 700;
+    font-style: normal;
+  }
